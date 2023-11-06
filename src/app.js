@@ -27,7 +27,7 @@ class Player {
     // Progession 1: Create member variables and assign values
     this.id = id;
     this.name = name;
-    this.image = './images/super-' + (id + 1) + '.png';
+    this.image = 'images/super-' + (id + 1) + '.png';
     this.strength = this.getRandomStrength();
     this.type = type;
     this.selected = false;
